@@ -9,23 +9,18 @@ export const AboutSection = () => {
           About <span className="text-primary"> Me</span>
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+          <div className="space-y-6 text-left">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Front-End Developer | UI/UX & Web Design Enthusiast
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              With hands-on experience in front-end development, I specialize in building responsive, scalable, and visually engaging web applications using React, Tailwind CSS, and modern JavaScript frameworks.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              I'm passionate about translating design concepts into interactive, high-performing interfaces that prioritize user experience. Having worked on diverse projects and collaborated in design-led teams, I love combining creativity with technical precision to craft web solutions that feel intuitive and impactful.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -35,7 +30,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:2e498f99-cea0-4a9f-8da8-9c931bca363a"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
