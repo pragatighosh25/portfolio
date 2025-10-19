@@ -1,36 +1,63 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import tomato from "../assets/tomato.png";
+import medicure from "../assets/medicure.png";
+import cryptoplace from "../assets/cryptoplace.png";
+import quickchat from "../assets/Chat.png";
+import thefilms from "../assets/flims.png";
 
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "QuickChat",
+    description:
+      "A real-time chat platform with instant messaging, responsive design, and optimized performance.",
+    image: quickchat,
+    tags: ["React", "MongoDB", "Express", "Node.js", "Socket.IO", "TailwindCSS"],
+    demoUrl: "https://quick-chat-frontend-pi.vercel.app/",
+    githubUrl: "https://github.com/pragatighosh25/QuickChat",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "The Films",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "A movie discovery app with dynamic content, trailer playback, and a fully responsive user interface.",
+    image: thefilms,
+    tags: ["React", "Redux", "TailwindCSS", "Axios", "TMDB API", "React Player"],
+    demoUrl: "https://movie-app-flax-mu-77.vercel.app/",
+    githubUrl: "https://github.com/pragatighosh25/movie-app",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Tomato",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "A food ordering app with cart and checkout flow built in React. Category filters, responsive design, and mock checkout.",
+    image: tomato,
+    tags: ["React", "Node.js", "TailwindCSS", "Redux", "@reduxjs/toolkit"],
+    demoUrl: "https://tomato-beige-delta.vercel.app/",
+    githubUrl: "https://github.com/pragatighosh25/tomato",
+  },
+  {
+    id: 4,
+    title: "Medicure",
+    description:
+      "Mental Health Web App with self-care tools and responsive UI — designed with Figma and built using React, Next.js, and Tailwind CSS.",
+    image: medicure,
+    tags: ["Next.js", "React", "TailwindCSS", "Figma", "React Icons", "ESLint"],
+    demoUrl: "https://mental-health-49jxfofcp-pragati-ghoshs-projects.vercel.app/",
+    githubUrl: "https://github.com/pragatighosh25/mental-health",
+  },
+  {
+    id: 5,
+    title: "Cryptoplace",
+    description:
+      "Crypto tracker with live market data, search, and trend visualization — powered by CoinGecko API and Google Charts.",
+    image: cryptoplace,
+    tags: ["React.js", "CoinGecko API", "React Router", "Google Charts", "Responsive UI"],
+    demoUrl: "https://cryptoplace-drab-psi.vercel.app/",
+    githubUrl: "https://github.com/pragatighosh25/cryptoplace",
   },
 ];
+
 
 export const ProjectsSection = () => {
   return (
@@ -100,7 +127,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/pragatighosh25"
           >
             Check My Github <ArrowRight size={16} />
           </a>
