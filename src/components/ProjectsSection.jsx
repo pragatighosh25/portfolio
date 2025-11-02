@@ -4,10 +4,21 @@ import medicure from "../assets/medicure.png";
 import cryptoplace from "../assets/cryptoplace.png";
 import quickchat from "../assets/Chat.png";
 import thefilms from "../assets/flims.png";
+import imagify from "../assets/imagify.png";
 
 const projects = [
   {
     id: 1,
+    title: "Imagify",
+    description:
+      "An AI-powered image enhancement app that generates images from text prompts.",
+    image: imagify,
+    tags: ["React", "MongoDB", "Express", "Node.js", "Clipdrop API", "TailwindCSS"],
+    demoUrl: "https://imagifyfrontend-lovat.vercel.app",
+    githubUrl: "https://github.com/pragatighosh25/imagify",
+  },
+    {
+    id: 2,
     title: "QuickChat",
     description:
       "A real-time chat platform with instant messaging, responsive design, and optimized performance.",
@@ -17,7 +28,7 @@ const projects = [
     githubUrl: "https://github.com/pragatighosh25/QuickChat",
   },
   {
-    id: 2,
+    id: 3,
     title: "The Films",
     description:
       "A movie discovery app with dynamic content, trailer playback, and a fully responsive user interface.",
@@ -27,7 +38,7 @@ const projects = [
     githubUrl: "https://github.com/pragatighosh25/movie-app",
   },
   {
-    id: 3,
+    id: 4,
     title: "Tomato",
     description:
       "A food ordering app with cart and checkout flow built in React. Category filters, responsive design, and mock checkout.",
@@ -37,7 +48,7 @@ const projects = [
     githubUrl: "https://github.com/pragatighosh25/tomato",
   },
   {
-    id: 4,
+    id: 5,
     title: "Medicure",
     description:
       "Mental Health Web App with self-care tools and responsive UI — designed with Figma and built using React, Next.js, and Tailwind CSS.",
@@ -47,7 +58,7 @@ const projects = [
     githubUrl: "https://github.com/pragatighosh25/mental-health",
   },
   {
-    id: 5,
+    id: 6,
     title: "Cryptoplace",
     description:
       "Crypto tracker with live market data, search, and trend visualization — powered by CoinGecko API and Google Charts.",
